@@ -14,6 +14,6 @@ public class PlayerCrontroller : MonoBehaviour
     void Update()
     {
         //we mobe BATMOBILE FOWARD
-        transform.Translate(Vector3.forward * Time.deltaTime * 20);
+        transform.Translate(Vector3.forward * Time.deltaTime * 40);
     }
 }

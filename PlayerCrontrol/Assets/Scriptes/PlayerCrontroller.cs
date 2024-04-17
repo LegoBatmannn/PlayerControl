@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PlayerCrontroller : MonoBehaviour
 {
+    public float speed = 40.0f;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -14,6 +16,6 @@ public class PlayerCrontroller : MonoBehaviour
     void Update()
     {
         //we mobe BATMOBILE FOWARD
-        transform.Translate(Vector3.forward * Time.deltaTime * 40);
+        transform.Translate(Vector3.forward * Time.deltaTime * speed);
     }
 }

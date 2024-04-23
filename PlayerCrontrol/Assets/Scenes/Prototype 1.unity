@@ -2228,7 +2228,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 40
   turnSpeed: 10
-  horizontalInput: 0
 --- !u!64 &286665180
 MeshCollider:
   m_ObjectHideFlags: 0
